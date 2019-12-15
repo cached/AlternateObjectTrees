@@ -11,5 +11,3 @@ services:
 
     Elements\Bundle\AlternateObjectTreesBundle\Installer:
         public: true
-        arguments:
-            $bundle: "@=service('kernel').getBundle('ElementsAlternateObjectTreesBundle')"

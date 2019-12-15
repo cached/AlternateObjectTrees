@@ -17,9 +17,9 @@ namespace Elements\Bundle\AlternateObjectTreesBundle;
 
 use Elements\Bundle\AlternateObjectTreesBundle\Model\Config\Dao;
 use Pimcore\Db;
-use Pimcore\Extension\Bundle\Installer\MigrationInstaller;
+use Pimcore\Extension\Bundle\Installer\AbstractInstaller;
 
-class Installer extends MigrationInstaller
+class Installer extends AbstractInstaller
 {
     public function isInstalled()
     {
